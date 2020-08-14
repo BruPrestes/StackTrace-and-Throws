@@ -11,6 +11,9 @@ import java.util.logging.Logger;
 public class UsandoThrows {
        public static void main(String[] args) {
         
+           for (int i = 10000; i < 999999999; i++) {
+               System.out.println(i);
+           }
         System.out.println("Entre com um número decimal");
            try {
                double num = leNumero();
